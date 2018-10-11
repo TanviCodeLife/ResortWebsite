@@ -1,5 +1,55 @@
-img {
-  width: 100%;
-  height: 1000px;
-  border: solid 3px #a8a3e0;
+body{
+    font-family: Raleway;
+    background-image: url(https://unsplash.com/photos/h-Qb-9H6Big);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: block;
+    text-align: center;
 }
+
+h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e8ebef;
+  margin-bottom: 5px;
+}
+
+.backimage {
+  background-image: url("https://images7.alphacoders.com/362/362619.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.backheader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  {
+  font-weight: 800;
+  }
+
+  #controlbar {
+    	background: #b4dce8;
+    	height: 30px;
+      width: 100%;
+  }
+
+  #controlbar.a{
+  	text-transform: uppercase;
+  	height: 100%;
+  	font-weight: 700;
+    font: white;
+  	letter-spacing: 1px;
+  	font-size: inherit;
+  	transition: all 0.2s;
+  	-webkit-transition: all 0.2s;
+  	-moz-transition: all 0.2s;
+  	outline: none;
+  }
